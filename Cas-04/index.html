@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Exercise</title>
+</head>
+<body>
+    <table>
+        <form>
+            <thead>
+                <tr>
+                    <th>Contact form</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><label>Name</label></td>
+                    <td><input type="text" id="name" required></td>
+                </tr>
+                <tr>
+                    <td><label>Password</label></td>
+                    <td><input type="password" id="Password" required></td>
+                </tr>
+                <tr>
+                    <td>Gender</td>
+                    <td>
+                        <input type="radio" id="male" name="Gender" value="Male">
+                        <label for="male">Male</label><br>
+                        <input type="radio" id="female" name="Gender" value="Female">
+                        <label for="female">Female</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label>Continent</label></td>
+                    <td>
+                        <select>
+                            <option selected disabled hidden>Please select...</option>
+                            <option value="europe">Europe</option>
+                            <option value="asia">Asia</option>
+                            <option value="africa">Africa</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label>Meals</label></td>
+                    <td>
+                        <input type="checkbox" id="breakfast" value="breakfast">
+                        <label for="breakfast">Breakfast</label><br>
+                        <input type="checkbox" id="lunch" value="lunch">
+                        <label for="breakfast">Lunch</label><br>
+                        <input type="checkbox" id="dinner" value="luncht">
+                        <label for="breakfast">Dinner</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label>Your note</label></td>
+                    <td><textarea type="text" id="text" placeholder="please enter your message here"></textarea></td>
+                </tr>
+                <tr>
+                    <td><button type="submit">SEND</button></td>
+                    <td><button type="reset">CANCEL</button></td>
+                </tr>
+            </tbody>
+        </form>
+    </table>
+</body>
+</html>
