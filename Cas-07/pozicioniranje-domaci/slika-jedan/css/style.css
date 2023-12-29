@@ -1,0 +1,54 @@
+#glavni {
+    border: 5px solid black;
+    width: fit-content;
+}
+#gore {
+    display: flex;
+    border-bottom: 10px solid black;
+}
+.emptyfirst {
+    background-color: bisque;
+    border-right: 5px solid black;
+    border-bottom: 20px solid black;
+    width: 300px;
+    height: 350px;
+}
+.emptysecond {
+    background-color: bisque;
+    border-right: 5px solid black;
+    width: 300px;
+    height: 350px;
+}
+.red {
+    background-color: red;
+    width: 700px;
+    height: 720px;
+    border-left: 5px solid black;
+}
+.blem {
+    display: flex;
+}
+.blue {
+    background-color: lightblue;
+    width: 300px;
+    height: 200px;
+    border-right: 10px solid black;
+}
+.emptythird {
+    background-color: bisque;
+    width: 600px;
+    border-right: 10px solid black;
+}
+.emye {
+    display: block;
+}
+.emptyfourth {
+    background-color: bisque;
+    width: 90px;
+    height: 90px;
+    border-bottom: 20px solid black;
+}
+.yellow {
+    background-color: yellow;
+    height: 90px;
+}

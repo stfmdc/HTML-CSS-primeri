@@ -1,0 +1,215 @@
+#glavni {
+    border: 5px solid black;
+    width: fit-content;
+}
+#prvi, #drugi, #treci, #cetvrti, #peti, #sesti, #sedmi {
+    display: flex;
+}
+
+/* prvi red */
+
+.jedan {
+    background-color: bisque;
+    width: 220px;
+    height: 100px;
+    border-right: 20px solid black;
+    border-bottom: 20px solid black;
+}
+.dva {
+    background-color: bisque;
+    width: 400px;
+    border-right: 20px solid black;
+    border-bottom: 20px solid black;
+}
+.tri {
+    background-color: chocolate;
+    width: 200px;
+    border-right: 20px solid black;
+    border-bottom: 20px solid black;
+}
+.cetiri {
+    background-color: white;
+    width: 100px;
+}
+
+/* drugi red */
+
+.pet {
+    background-color: bisque;
+    width: 120px;
+    height: 200px;
+    border-right: 20px solid black;
+    border-bottom: 20px solid black;
+}
+.sest {
+    background-color: red;
+    width: 500px;
+    border-right: 20px solid black;
+}
+.sedam {
+    background-color: chocolate;
+    width: 200px;
+    height: 200px;
+    border-right: 20px solid black;
+    border-bottom: 20px solid black;
+}
+.osam {
+    background-color: white;
+    width: 100px;
+}
+
+/* treci red */
+
+.devet {
+    background-color: bisque;
+    width: 100px;
+    height: 200px;
+    border-right: 20px solid bisque;
+    border-bottom: 20px solid bisque;
+}
+.deset {
+    background-color: red;
+    width: 500px;
+    border-left: 20px solid black;
+    border-right: 20px solid black;
+    border-bottom: 20px solid black;
+}
+.jedanaest {
+    background-color: burlywood;
+    width: 90px;
+    height: 200px;
+    border-right: 20px solid black;
+    border-bottom: 20px solid black;
+}
+.dvanaest {
+    background-color: burlywood;
+    width: 90px;
+    height: 200px;
+    border-right: 20px solid black;
+    border-bottom: 20px solid black;
+}
+.trinaest {
+    background-color: white;
+    width: 100px;
+}
+
+/* cetvrti red */
+
+.cetrnaest {
+    background-color: bisque;
+    width: 120px;
+    height: 100px;
+    border-bottom: 20px solid black;
+}
+.petnaest {
+    background-color: black;
+    width: 250px;
+    border-right: 20px solid black;
+}
+.sestnaest {
+    background-color: burlywood;
+    width: 250px;
+    height: 100px;
+    border-right: 20px solid black;
+    border-bottom: 20px solid black;
+}
+.sedamnaest {
+    background-color: burlywood;
+    width: 200px;
+    height: 100px;
+    border-right: 20px solid black;
+    border-bottom: 20px solid black;
+}
+.osamnaest {
+    background-color: white;
+    width: 100px;
+    border-bottom: 20px solid black;
+}
+
+/* peti rec */
+
+.devetnaest {
+    background-color: chocolate;
+    width: 120px;
+}
+.dvadeset {
+    background-color: black;
+    width: 250px;
+    border-right: 20px solid black;
+}
+.dvadesetjed {
+    background-color: burlywood;
+    width: 250px;
+    height: 100px;
+    border-right: 20px solid black;
+    border-bottom: 20px solid black;
+}
+.dvadesetdva {
+    background-color: blue;
+    width: 200px;
+    border-right: 20px solid black;
+}
+.dvadesettri {
+    background-color: red;
+    width: 100px;
+}
+
+/* sesti red */
+
+.dvadesetcet {
+    background-color: chocolate;
+    width: 120px;
+}
+.dvadesetpet {
+    background-color: bisque;
+    width: 230px;
+    border-right: 20px solid black;
+    border-left: 20px solid black;
+}
+.dvadesetses {
+    background-color: black;
+    width: 250px;
+    height: 50px;
+    border-bottom: 20px solid black;
+    border-right: 20px solid black;
+}
+.dvadesetsed {
+    background-color: blue;
+    width: 200px;
+    height: 50px;
+    border-right: 20px solid black;
+    border-bottom: 20px solid black;
+}
+.dvadesetosa {
+    background-color: red;
+    width: 100px;
+}
+
+/* sedmi red */
+
+.dvadesetdev {
+    background-color: chocolate;
+    width: 120px;
+    height: 50px;
+}
+.trideset {
+    background-color: bisque;
+    width: 230px;
+    border-left: 20px solid black;
+}
+.tridesetjed {
+    background-color: bisque;
+    width: 250px;
+    height: 50px;
+    border-left: 20px solid black;
+}
+.tridesetdva {
+    background-color: bisque;
+    width: 220px;
+    height: 50px;
+    border-right: 20px solid black;
+}
+.tridesettri {
+    background-color: red;
+    width: 100px;
+}
