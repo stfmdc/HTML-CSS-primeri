@@ -1,0 +1,27 @@
+h1 {
+    background-color: green;
+    font-size: 60px;
+    color: white;
+}
+
+@media screen and (max-width: 600px) {
+    h1 {
+        background-color: aqua;
+        font-size: 10px;
+        color: black;
+    }
+}
+@media screen and (min-width: 600px) and (max-width: 900px) {
+    h1 {
+        background-color: blue;
+        font-size: 20px;
+        color: yellowgreen;
+    }
+}
+@media screen and (min-width: 900px) and (max-width: 1200px) {
+    h1 {
+        background-color: coral;
+        font: 30px;
+        color: teal;
+    }
+}
